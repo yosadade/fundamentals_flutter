@@ -1,5 +1,5 @@
-import 'package:aplikasi_helloworld/anonymous_method.dart';
-import 'package:aplikasi_helloworld/text_style.dart';
+import 'package:aplikasi_helloworld/anymatedcontainer_gesturedectector.dart';
+import 'package:aplikasi_helloworld/flexible_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return (
-      Textstyle()
+      FlexibleWidget()
     );
   }
 }
